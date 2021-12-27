@@ -1,0 +1,479 @@
+/*----- Extra large devices (large desktops, 1200px and up) -----*/
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+
+    .navbar-nav {
+        margin-left: 15%;
+    }
+    .navbar__icon-collapse1{
+        display: none;
+    }
+    .dropdown__icon{
+        margin: -8px 0px 0px 45px;
+    }
+    .dropdown__menu{
+        padding-top: 0px;
+        top: 58px;
+    }
+
+    footer .copyright,
+    footer .navigation,
+    footer .contact {
+        text-align: left;
+    }
+}
+
+
+/*----- Large devices (desktops, 992px and up) -----*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .carousel-caption h1 {
+        width: 100%;
+    }
+
+    .header{
+        margin: 0px;
+    }
+    .navbar-nav {
+        margin-left: 12%;
+    }
+    #HomePage{
+        margin-right: 25px;
+    }
+    .Categories{
+        margin-right: 15px;
+    }
+    #Trending{
+        margin-right: 0px;
+    }
+    .navbar__icon-collapse1{
+        display: none;
+    }
+    .header__navbar-item{
+        width: 133px;
+    }
+    .dropdown__menu{
+        padding-top: 0px;
+        top: 58px;
+    }
+
+
+    aside .sidebar__tittle .sidebar__tittle-categories {
+        font-size: 2.15rem;
+    }
+    aside .sidebar__tittle-filter li{
+        padding-left: 0.6rem;
+    }
+
+    footer .copyright,
+    footer .navigation,
+    footer .contact {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 1.85rem;
+    }
+
+    .sign__form {
+        position: relative;
+        padding-left: 32px;
+    }
+    
+    .sign__social__links ul li a {
+        width: 380px;
+    }
+
+    .name {
+        font-size: 1.99rem;
+    }
+}
+
+
+/*----- Medium devices (tablets, 768px and up) -----*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption h1 {
+        width: 100%;
+    }
+
+
+    .navbar-nav {
+        margin-left: 0%;
+        padding: 6px 6px;
+    }
+    .navbar__collapse{
+        display: none!important;
+        
+    }
+    .navbar__icon-collapse{
+        padding-top: 1rem;
+    }
+    .navbar__category{
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--Primary-Red);
+        
+    }
+    .header__navbar-item-link{
+        text-align: left;
+        padding-left: 25px!important;
+        width: 100%;
+    }
+    .navbar__menu{
+        background-color: var(--Primary-Black);
+        padding: 0px 10px;
+    }
+    .navbar-collapse{
+        margin-top: -6px;
+    }
+    .dropdown__list{
+        padding-left: 15px;
+
+    }
+    .header__menu-item-link{
+        opacity: 0.9;
+    }
+    .header__menu-item{
+        padding-left: 1rem;
+    }
+    .navbar-brand{
+        padding-bottom: 1rem;
+        margin-left: 35%;
+    }
+    .navbar__button{
+        padding-bottom: 1rem;
+
+    }
+    .dropdown__icon{
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+    .dropdown__menu{
+        padding-top: 0px;
+    }
+
+    .anime__details__rating {
+        text-align: start;
+    }
+
+    footer .feedback {
+        padding-left: 15px;
+    }
+
+    footer .copyright,
+    footer .navigation,
+    footer .contact {
+        text-align: left;
+    }
+
+    .post-no-mb {
+        margin-bottom: 0;
+    }
+    .pagination {
+        margin-bottom: 6rem;
+    }
+
+    .sign__form {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .sign__form::after {
+        display: none;
+    }
+    .sign__form form .input__item {
+        width: auto;
+    }
+    .sign__register {
+        padding-left: 0;
+    }
+    .sign__register h3 {
+        margin-top: 2rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*----- Small devices (landscape phones, 576px and up) -----*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .carousel-caption h1 {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        margin-left: 0%;
+    }
+    .navbar__category{
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--Primary-Red);
+        
+    }
+    .navbar__collapse{
+        display: none!important;
+    }
+    .header__navbar-item-link{
+        text-align: left;
+        padding-left: 15px!important;
+        width: 100%;
+    }
+    .dropdown__list{
+        padding-left: 20px;
+
+    }
+    .navbar__menu{
+        background-color: var(--Primary-Black);
+        padding:4px 0px 0px 0px;
+    }
+    .dropdown__icon{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .header__nav{
+        padding: 6px 6px;
+    }
+    .dropdown__menu{
+        padding: 0px;
+    }
+    .navbar__button{
+        padding-bottom: 1rem;
+    }
+    .navbar__user{
+        z-index: 1000;
+        top: 60px;
+    }
+    .navbar-brand{
+        padding-bottom: 1rem;
+        margin-left: 30%;
+    }
+    .navbar__button{
+        padding-bottom: 1rem;
+    }
+
+    .anime__details__rating {
+        text-align: start;
+    }
+
+    footer .feedback {
+        padding-left: 15px;
+    }
+
+    footer .copyright {
+        padding-right: 0;
+    }
+
+    .post-no-mb {
+        margin-bottom: 0;
+    }
+    .pagination {
+        margin-bottom: 6rem;
+    }
+
+    .sidebar__anime-detail {
+        margin-top: 4rem;
+    }
+
+    .control__player {
+        height: 40px;
+    }
+    .control__player-btn {
+        font-size: 1.3rem;
+        padding: 10px 10px;
+    }
+    .control__player-left .control__player-btn:first-child {
+        padding-left: 15px;
+    }
+    .control__player-btn img {
+        width: 1.1rem;
+    }
+
+
+    .sign__form {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .sign__form::after {
+        display: none;
+    }
+    
+    .sign__form form .input__item {
+        width: auto;
+    }
+    .sign__register {
+        padding-left: 0;
+    }
+    .sign__register h3 {
+        margin-top: 2rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*----- Small Device = 320px only screen and -----*/
+
+@media only screen and (max-width: 479px) {
+    .carousel-caption h1 {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+
+    .navbar-nav {
+        margin-left: 0%;
+    }
+    .navbar__category{
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--Primary-Red);
+    }
+    .navbar__collapse{
+        display: none!important;
+    }
+    .header__navbar-item-link{
+        text-align: left;
+        padding-left: 10px!important;
+    }
+    .dropdown__list{
+        padding-left: 20px;
+    }
+    .dropdown__icon{
+        margin-left: 15px;
+    }
+    .navbar__menu{
+        background-color: var(--Primary-Black);
+        padding: 0px;
+    }
+    .navbar__icon-collapse{
+        padding-top: 0.5rem;
+    }
+    .header__navbar-item-link{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .header__nav{
+        padding: 6px 6px;
+    }
+    .dropdown__menu{
+        padding: 0px;
+    }
+    .navbar__button{
+        padding-bottom: 1rem;
+    }
+    .navbar__user{
+        z-index: 1000;
+        top: 61px;
+    }
+    .navbar-brand{
+        padding-bottom: 1rem;
+        margin-left: 5%;
+    }
+    .header__navbar-icon-search{
+        margin-left: 10px;
+    }
+    .navbar__search-input{
+        width: 80%;
+    }
+
+    .post__tittle .post__tittle__filter select {
+        margin-left: 5px;
+    }
+
+    aside .sidebar__tittle .sidebar__tittle-categories {
+        font-size: 2.15rem;
+    }
+    aside .sidebar__tittle-filter li{
+        padding-left: 0.6rem;
+    }
+
+    .anime__details__rating {
+        text-align: start;
+    }
+
+    footer .feedback {
+        padding-left: 15px;
+    }
+
+    h2 {
+        font-size: 1.85rem;
+    }
+    .sidebar__anime-detail {
+        margin-top: 4rem;
+    }
+    .post-no-mb {
+        margin-bottom: 0;
+    }
+    .pagination {
+        margin-bottom: 6rem;
+    }
+
+    .control__player {
+        height: 30px;
+    }
+    .control__player-btn {
+        font-size: 1.1rem;
+        padding: 10px 8px;
+    }
+    .control__player-left .control__player-btn:first-child {
+        padding-left: 15px;
+    }
+    .control__player-btn img {
+        width: 0.8rem;
+    }
+
+    .sign h3 {
+        font-size: 2.8rem;
+    }
+    .sign__form {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .sign__form::after {
+        display: none;
+    }
+    
+    .sign__form form .input__item {
+        width: auto;
+    }
+    .sign__register {
+        padding-left: 0;
+    }
+    .sign__register h3 {
+        margin-top: 2rem;
+        margin-bottom: 20px;
+    }
+    .sign__social__links ul li a i {
+        left: 1.5rem;
+    }
+    .sign__social__links ul li a {
+        width: auto;
+        font-size: 1.2rem;
+    }
+    .sign__form .forget_pass {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin-top: 25px;
+      }
+
+    .banner__content h2 {
+        font-size: 4.5rem;
+    }
+    .banner__content p {
+        font-size: 2.1rem;
+        padding: 0 4%;
+    }
+    .control__player-left .control__player-btn:first-child {
+        display: none;
+    }
+}
